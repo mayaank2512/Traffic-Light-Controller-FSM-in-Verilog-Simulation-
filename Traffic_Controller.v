@@ -1,11 +1,10 @@
-
 module Traffic_Controller(
     input clk, rst,
     output reg [2:0] NS, // North-South lights (R=100, Y=010, G=001)
     output reg [2:0] EW  // East-West lights
 );
 
-    reg [2:0] state;
+    reg [1:0] state;
     reg [3:0] counter;
 
     parameter NS_GREEN = 3'b001, NS_YELLOW = 3'b010, NS_RED = 3'b100;

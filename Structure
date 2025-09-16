@@ -1,0 +1,6 @@
+Traffic-Light-Controller/
+│── verilog_codes/        # Verilog FSM implementation
+│── testbenches/          # Testbenches for simulation
+│── simulation_results/   # GTKWave waveforms
+│── python_gui/           # (Optional) Python visualization
+│── README.md
